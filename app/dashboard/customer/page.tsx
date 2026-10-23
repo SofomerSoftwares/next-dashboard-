@@ -1,0 +1,8 @@
+export default function CustomerPage() {
+  return (
+    <div>
+      <h1>Customers</h1>
+      <p>Welcome to the customers page!</p>
+    </div>
+  );
+}
