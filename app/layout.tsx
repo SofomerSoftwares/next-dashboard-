@@ -1,3 +1,4 @@
+// @ts-expect-error CSS imports are handled by the Next.js bundler.
 import "./ui/global.css";
 
 import { inter } from "./ui/fonts";
