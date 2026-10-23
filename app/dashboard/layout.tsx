@@ -1,5 +1,5 @@
 import Sidebar from "../ui/dashboard/sidenav";
-function Layout({ childern }: { childern: React.ReactNode }) {
+export default function Layout({ childern }: { childern: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
       <div className="w-full  flex-none md:w-64 ">
@@ -9,5 +9,3 @@ function Layout({ childern }: { childern: React.ReactNode }) {
     </div>
   );
 }
-
-export default Layout;
